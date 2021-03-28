@@ -1,0 +1,114 @@
+{
+  "casos": [
+    {
+      "img": "/assets/img/ed-team-web.jpg",
+      "title": "EDteam",
+      "subtitle": "Web oficial de EDteam",
+      "description": "Plataforma dedicada a la enseñanza de programación, diseño web y todo lo referente al mundo de desarrollo web.",
+      "url": "https://ed.team/",
+      "user": "no",
+      "imageUser": "",
+      "linkUser": ""
+    },
+    {
+      "img": "/assets/img/la-canasta.jpg",
+      "title": "Las Canastas",
+      "subtitle": "Restaurant",
+      "description": "Restaurant de parrilldas y pollos ubicada en Perú con diversas sucursales al rededor de todo el país.",
+      "url": "https://lascanastas.com/",
+      "user": "Jose Álvarado",
+      "imageUser": "/assets/img/jose-alvarado.png",
+      "linkUser": "https://twitter.com/josealvaradoo"
+    },
+    {
+      "img": "/assets/img/caexco.jpg",
+      "title": "Caexco",
+      "subtitle": "Tienda en línea",
+      "description": "Empresa dedicada a la comercialización de equipo agrícola, repuestos y accesorios. ",
+      "url": "http://www.caexcobolivia.com/",
+      "user": "Beto Quiroga",
+      "imageUser": "/assets/img/beto-quiroga.jpg",
+      "linkUser": "https://www.facebook.com/diterterrones"
+    },
+    {
+      "img": "/assets/img/importmecardo.jpg",
+      "title": "Importmercado",
+      "subtitle": "Venta de maquinaría metalmecánica",
+      "description": "Empresa dedicada a la importación y comercialización de maquinaria metalmecánica y accesorios.",
+      "url": "http://importmercado.com/",
+      "user": "Beto Quiroga",
+      "imageUser": "/assets/img/beto-quiroga.jpg",
+      "linkUser": "https://www.facebook.com/diterterrones"
+    },
+    {
+      "img": "/assets/img/capilla-cocha.jpg",
+      "title": "Capilla de Cochabamba",
+      "subtitle": "Centro educativo cristiano bilingüe",
+      "description": "Unidad Educativa fundamentada en sólidos principios bíblicos con una alta calidad en la formación académica bilingüe.",
+      "url": "http://colegiocapillacbba.edu.bo/",
+      "user": "Beto Quiroga",
+      "imageUser": "/assets/img/beto-quiroga.jpg",
+      "linkUser": "https://www.facebook.com/diterterrones"
+    },
+    {
+      "img": "/assets/img/aremisse.jpg",
+      "title": "Aremisse Lima",
+      "subtitle": "Transporte corporativo, turístico y personal",
+      "description": "Empresa peruana dedicada al transporte de personal, transporte ejecutivo o corporativo y transporte turístico.",
+      "url": "https://aremisse.com/",
+      "user": "Diter Terrones",
+      "imageUser": "/assets/img/diter-terrones.jpeg",
+      "linkUser": "https://www.facebook.com/diterterrones"
+    },
+    {
+      "img": "/assets/img/wizardgva-web.png",
+      "title": "Wizardgva",
+      "subtitle": "Agencia de soluciones TI",
+      "description": "Wizardgva nace del sueño de un joven por brindar soluciones de hardware rápidas y accesibles",
+      "url": "https://wizardgva.com/",
+      "user": "Danny Restrepo",
+      "imageUser": "/assets/img/wizardgva-user.png",
+      "linkUser": "https://www.linkedin.com/in/restrepodanny/"
+    },
+    {
+      "img": "/assets/img/alkila-web.png",
+      "title": "Alkila",
+      "subtitle": "Empresa de reta de autos",
+      "description": "Alkila es una empresa Peruana dedicada al rubro de alquiler de vehículos.",
+      "url": "http://alkilarentacar.com",
+      "user": "Edwing Romero",
+      "imageUser": "/assets/img/alkila-user.png",
+      "linkUser": "https://www.linkedin.com/in/edwingromero/"
+    },
+    {
+      "img": "/assets/img/gema-web.png",
+      "title": "Agencia Gema",
+      "subtitle": "Agencia de eventos",
+      "description": "En Gema, son especialistas en el servicio de banquetes y renta de equipo para todo tipo de eventos",
+      "url": "http://agenciagema.com/",
+      "user": "no",
+      "imageUser": "",
+      "linkUser": ""
+    },
+    {
+      "img": "/assets/img/robert-web.png",
+      "title": "Portafolio - Robert",
+      "subtitle": "Portafolio",
+      "description": "Esta web es el portfolio de Robert Huamán Cáceres, estudiante en Ingeniería informática y sistemas de la Universidad Nacional Micaela Bastidas de Apurímac - Perú",
+      "url": "https://pepobj.github.io/dist/",
+      "user": "Robert BJ Huamán",
+      "imageUser": "/assets/img/robert-user.png",
+      "linkUser": "https://www.linkedin.com/in/robert-bj-huaman/"
+    },
+    {
+      "img": "/assets/img/militaria-web.png",
+      "title": "Militaria",
+      "subtitle": "Empresa",
+      "description": "Empresa peruana dedicada a la exportación de indumentaria y accesorios para uso militar.",
+      "url": "http://militaria.com.pe/",
+      "user": "Edwing Romero",
+      "imageUser": "/assets/img/alkila-user.png",
+      "linkUser": "https://www.linkedin.com/in/robert-bj-huaman/"
+    }
+  ]
+}

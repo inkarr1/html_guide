@@ -1,0 +1,51 @@
+extends ../../config/template
+append config
+  -title = "EDgrid | Base (CSS/Sass)"
+  -description = "Los estilos base normalizan los elementos HTML para Responsive Web Design."
+  -ogUrl = "/documentacion/instalacion.html"
+  -docsMenu = true
+
+block main
+  main(itemscope itemprop="mainContentOfPage" role="main")
+    :markdown-it
+
+      # Comenzar con EDgrid
+      EDgrid es una libreria CSS/Sass para construir layouts para web fácilmente. En una hora ya lo estará usando en sus proyectos.
+
+      Creado por [EDteam](https://ed.team) y usado en todos los proyectos de la empresa. Es Open Source (GPL2) y puede usarla y modificarla libremente en todos sus proyectos.
+
+      Si encuentra algun error o tiene sugerencias de mejoras, [puede escribirlas en Github](https://github.com/escueladigital/EDgrid/issues).
+
+      ## Instalación
+
+      Puede usar EDgrid con [Sass](https://ed.team/cursos/sass) (recomendado) y [CSS](https://ed.team/cursos/css).
+
+      ### Instalación de versión Sass
+
+      Para instalar la versión Sass puede utilizar npm:
+
+      ```bash
+      npm install --save-dev ed-grid
+      ```
+
+      También puede usar yarn:
+
+      ```bash
+      yarn add ed-grid --dev
+      ```
+
+      Posteriormente, impórtelo en su estructura de archivos Sass
+
+      ```scss
+      @import "~ed-grid/ed-grid"
+      ```
+
+      ### Instalación de versión CSS
+      Descargue la última [versión CSS]() de EDgrid e impórtela en su proyecto como cualquier otra hoja de estilos. También puede usar del CDN para importaciones rápidas.
+
+      ```HTML
+      <link href="https://unpkg.com/ed-grid@3.0.0/src/css/ed-grid.min.css" rel="stylesheet">
+      ```
+
+      \* *Al usar EDgrid en su versión CSS no podrá [personalizar la librería](/documentacion/personalizar.html), utilizar el [prototipado avanzado](/documentacion/prototipado-avanzado.html) y compilar sólo el código necesario, entre otras opciones que sólo se pueden hacer con la versión de Sass*
+

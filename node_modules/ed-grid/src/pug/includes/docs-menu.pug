@@ -1,0 +1,42 @@
+mixin sidebar-section(title)
+  section.s-mb-2.m-mb-3
+    p.t5.s-mb-1= title
+    block
+
+mixin sidebar-link(value, url)
+  li(itemprop="url")
+    a(href=url itemprop="name" title=value)= value
+
+nav(itemscope itemtype="http://schema.org/WPSideBar").vertical-menu#vertical-menu
+  ul
+    +sidebar-section('Comenzar con EDgrid')
+      +sidebar-link('Instalación', '/documentacion/instalacion.html')
+      +sidebar-link('Estructura de archivos', '/documentacion/estructura.html')
+      +sidebar-link('Personalización', '/documentacion/personalizar.html')
+      +sidebar-link('Breakpoints', '/documentacion/breakpoints.html')
+
+    +sidebar-section('Filas y columnas')
+      +sidebar-link('Flexbox', '/documentacion/layout-flexbox.html')
+      +sidebar-link('CSS Grid', '/documentacion/layout-css-grid.html')
+      +sidebar-link('Modo desarrollo', '/documentacion/modo-dev.html')
+
+    +sidebar-section('Layout')
+      +sidebar-link('Estilos base', '/documentacion/base.html')
+      +sidebar-link('Secciones y espaciado', '/documentacion/layout.html')
+      +sidebar-link('Distribución', '/documentacion/distribucion.html')
+      +sidebar-link('Alineación', '/documentacion/alineacion.html')
+      +sidebar-link('Visibilidad', '/documentacion/visibilidad.html')
+      +sidebar-link('Mediaqueries', '/documentacion/mediaqueries.html')
+      +sidebar-link('Videos responsive', '/documentacion/videos.html')
+      +sidebar-link('Ratios e imágenes', '/documentacion/ratios.html')
+
+    +sidebar-section('Helpers y prototipado')
+      +sidebar-link('Funciones', '/documentacion/funciones.html')
+      +sidebar-link('Prototipado de EDgrid', '/documentacion/prototipado.html')
+      +sidebar-link('Prototipado avanzado', '/documentacion/prototipado-avanzado.html')
+
+    +sidebar-section('Componentes')
+      +sidebar-link('Cards', '/documentacion/cards.html')
+      +sidebar-link('Banner', '/documentacion/banner.html')
+      +sidebar-link('Skeleton', '/documentacion/skeleton.html')
+      +sidebar-link('Menú responsive', '/documentacion/menu-responsive.html')

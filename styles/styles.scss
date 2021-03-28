@@ -1,0 +1,46 @@
+@import 'components/_guide-styles.scss';
+@import 'components/molecules/_main-banner.scss';
+*{
+    box-sizing: border-box;
+}
+html {
+    background-color: #131A1F;
+}
+section{
+    margin-bottom: 0;
+}
+
+article{
+    margin-bottom: 0;
+}
+
+.bigger-title {
+    line-height: var(--heading-line-height);
+    font-family: var(--heading-font);
+    font-weight: 800;
+    letter-spacing: 0.015em;
+    color: var(--white-color);
+    font-size: var(--bigger-font-size);
+}
+
+figure {
+    margin: 0;
+}
+.grey-400{
+    color: var(--grey-400);
+    &::hover{
+        color: var(--grey-400-alt);
+    }
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    color: var(--white-color)
+}
+
+.main-logo{
+    height: 2rem;
+    width: auto;
+    display: block;
+}

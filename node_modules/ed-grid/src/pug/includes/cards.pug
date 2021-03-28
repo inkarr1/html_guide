@@ -1,0 +1,18 @@
+mixin card(cardImage, cardTitle, cardSub, cardText, cardlink, user, imageUser,  linkuser)
+  .testimony-card.s-column.s-border.s-radius.s-bg-white.s-shadow-bottom
+    .img-container.s-ratio-16-9
+      img(src=cardImage).s-radius-tl.s-radius-tr
+    .content.s-pxy-2.s-column
+      h2.t3.s-mb-1=cardTitle
+      p.color.color-text-light=cardSub
+      .card__body
+        p=cardText
+      footer.card__footer.s-cross-center.nowrap
+        .card__btn.small.s-mr-1
+          a(target="_blank" href=cardlink title=cardTitle).button.small.ghost Ver página
+        if (user !== "no")
+          .s-to-right.s-cross-center.user-avatar
+            .photo.s-mr-1
+              .img-container.circle
+                img(src=imageUser)
+            a(target="_blank" href=linkuser)= user

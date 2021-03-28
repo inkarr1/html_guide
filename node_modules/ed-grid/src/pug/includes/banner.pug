@@ -1,0 +1,19 @@
+mixin banner(img, title, description, clase, boton, botonClass, botonUrl, botonText, botones)
+  .main-banner.background.s-py-4.grey-700.l-block.img-container(class=clase)
+    .ed-grid.lg-grid-6
+      .lg-cols-4.lg-x-2.s-center
+        .main-banner__data
+          .t1.s-mb-2
+            span.color.white-color= title
+          if description
+            p.color.white-color.s-opacity-8(class=boton || botones ? 'l-block' : 's-mb-0')= description
+          if boton
+            a(class='button--'+botonClass href=botonUrl target="_blank")= botonText
+          if botones
+            .s-center
+              a.button.ghost.blue-400.s-mr-2(href="/documentacion" title="Documentación de EDgrid")
+                span Documentación
+              a.button.ghost.blue-400(href="https://github.com/escueladigital/EDgrid" target="_blank" title="EDgrid en Github")
+                span Github
+          if block
+            block

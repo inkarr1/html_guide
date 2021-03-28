@@ -1,0 +1,34 @@
+:root{
+    --padding: 2rem;
+
+    //TEXT
+    
+    --bigger-font-size   : 1.75rem;
+    --h1-font-size     : 1.5rem;
+    --h2-font-size     : 1.25rem;
+    --h3-font-size     : 1rem;
+    --normal-fonnt-size: .9375rem;
+    --small-font-size  : .8125rem;
+    --smaller-font-size: .75rem;
+
+    @media screen and (min-width:1024px) {
+        --bigger-font-size   : 2.25rem;
+        --h1-font-size     : 2rem;
+        --h2-font-size     : 1.5rem;
+        --h3-font-size     : 1.25rem;
+        --normal-fonnt-size: 1rem;
+        --small-font-size  : .875rem;
+        --smaller-font-size: .8.125rem;
+    }
+
+    //Color
+    --white-color: #fbfbfb;
+    --black-color: #192229;
+    --grey-400: #c8cdd0;
+    --grey-400-alt:#a0a7ac;
+
+    //Bigger-title
+    --heading-line-height: 1.3;
+    --heading-font       : 'Inter', sans-serif;
+    --title-color        : #192229;
+}
