@@ -11,6 +11,9 @@
     --small-font-size  : .8125rem;
     --smaller-font-size: .75rem;
 
+    //Height
+    --header-height: 3rem;
+
     @media screen and (min-width:1024px) {
         --bigger-font-size   : 2.25rem;
         --h1-font-size     : 2rem;
@@ -19,6 +22,9 @@
         --normal-fonnt-size: 1rem;
         --small-font-size  : .875rem;
         --smaller-font-size: .8.125rem;
+
+        //Height
+        --header-height: 4rem;
     }
 
     //Color
@@ -26,6 +32,7 @@
     --black-color: #192229;
     --grey-400: #c8cdd0;
     --grey-400-alt:#a0a7ac;
+    --background-color: #131A1F;
 
     //Bigger-title
     --heading-line-height: 1.3;

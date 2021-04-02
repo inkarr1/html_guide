@@ -7,10 +7,12 @@
   --normal-fonnt-size: .9375rem;
   --small-font-size: .8125rem;
   --smaller-font-size: .75rem;
+  --header-height: 3rem;
   --white-color: #fbfbfb;
   --black-color: #192229;
   --grey-400: #c8cdd0;
   --grey-400-alt:#a0a7ac;
+  --background-color: #131A1F;
   --heading-line-height: 1.3;
   --heading-font: 'Inter', sans-serif;
   --title-color: #192229;
@@ -25,7 +27,22 @@
     --normal-fonnt-size: 1rem;
     --small-font-size: .875rem;
     --smaller-font-size: .8.125rem;
+    --header-height: 4rem;
   }
+}
+
+.main-header {
+  height: var(--header-height);
+  background: var(--background-color);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 100;
+}
+
+.main-header > .ed-grid {
+  height: 100%;
 }
 
 .main-banner {
@@ -38,8 +55,11 @@
           box-sizing: border-box;
 }
 
-html {
-  background-color: #131A1F;
+body {
+  position: relative;
+  right: 0;
+  margin: var(--header-height) 0 0 0;
+  background: var(--background-color);
 }
 
 section {
